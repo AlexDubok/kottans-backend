@@ -32,3 +32,19 @@ You can add files to the printer queue with `lpr` command
 
 ### Intent to use in future
 use `grep` more often
+
+![Proof screenshot](task_unix_shell/quiz-1.jpg)
+![Proof screenshot](task_unix_shell/quiz-2.jpg)
+![Proof screenshot](task_unix_shell/quiz-3.jpg)
+![Proof screenshot](task_unix_shell/quiz-4.png)
+![Proof screenshot](task_unix_shell/conclusion.png)
+
+
+## Git Collaboration
+### New to me
+You can use `git shortlog` to see how many commits each contributor has added to the repository. `-s` shows just the number of commits (rather than each commit's message);`-n` sorts them numerically (rather than alphabetically by author name). `--author` to filter by author name. `--grep` flag to filter output (case sensitive).
+
+### Intent to use in future
+squashing the commits `git rebase -i HEAD~1` ~{number} is the number of commits to squash
+
+![Proof screenshot](task_git_collaboration/git_collaboration.jpg)
